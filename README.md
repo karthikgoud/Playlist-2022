@@ -1,4 +1,5 @@
 # Mark 9 - Playlist -2022
+A simple react app that plays songs of favorite singers made as playlist.
 
 # Live link : 
 https://playlist-2022.netlify.app/
