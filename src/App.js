@@ -9,16 +9,19 @@ function App() {
         songname: "Rangi Saari",
         link: "https://www.youtube.com/watch?v=jY8mAWdQFOA",
         pic: "/images/RangiSaari.jpg",
+        rating: "4.5/5",
       },
       {
         songname: "Bombay Dreams",
         link: "https://www.youtube.com/watch?v=lYxjFOvFzb4",
         pic: "/images/bombayDreams.jpg",
+        rating: "4.6/5",
       },
       {
         songname: "Iktara",
         link: "https://www.youtube.com/watch?v=4sMdGz8rbcs",
         pic: "/images/iktara.jpg",
+        rating: "4.2/5",
       },
     ],
     Jonita_Gandhi: [
@@ -26,16 +29,19 @@ function App() {
         songname: " Vaseegara",
         link: "https://www.youtube.com/watch?v=zVgyZ-NPxHk",
         pic: "/images/Vaseegara.jpg",
+        rating: "4.4/5",
       },
       {
         songname: "Arabic Kuthu",
         link: "https://www.youtube.com/watch?v=KUN5Uf9mObQ",
         pic: "/images/arabicKuttu.jpg",
+        rating: "4.1/5",
       },
       {
         songname: "Tum hi ho",
         link: "https://www.youtube.com/watch?v=3AbmV04wZ4Y",
         pic: "/images/tumHiHo.jpg",
+        rating: "4.3/5",
       },
     ],
     KK: [
@@ -43,16 +49,40 @@ function App() {
         songname: " Beete Lamhein",
         link: "https://www.youtube.com/watch?v=4P4Oa0pbZNQ",
         pic: "/images/BeeteLamhein.jpg",
+        rating: "4.6/5",
       },
       {
         songname: "Zara Sa",
         link: "https://www.youtube.com/watch?v=gYpHek_hW1w",
         pic: "/images/ZaraSa.jpg",
+        rating: "4.4/5",
       },
       {
         songname: "Alvida",
         link: "https://www.youtube.com/watch?v=qF179mXIahE",
         pic: "/images/Alvida.jpg",
+        rating: "4.2/5",
+      },
+    ],
+
+    Ananya_Bhat: [
+      {
+        songname: "Mehabooba KGF-2",
+        link: "https://www.youtube.com/watch?v=WRpr1PGVEbc",
+        pic: "/images/mehabooba.jpg",
+        rating: "4.7/5",
+      },
+      {
+        songname: "Sojugada_Sooju_Malige",
+        link: "https://www.youtube.com/watch?v=yWmcMsI5dks",
+        pic: "/images/Sojugada.jpg",
+        rating: "4.5/5",
+      },
+      {
+        songname: "Garbadhi",
+        link: "https://www.youtube.com/watch?v=o_Gark2BmoQ",
+        pic: "/images/garbhadi.jpg",
+        rating: "4.3/5",
       },
     ],
   };
@@ -83,7 +113,7 @@ function App() {
                 onClick={() => singerClickHandler(singerName)}
                 style={{ padding: "0.5rem", cursor: "pointer" }}
               >
-                🎤{singerName}
+                🎤 {singerName}
               </span>
             );
           })}
@@ -92,7 +122,7 @@ function App() {
 
       {/* -------------- */}
       <main>
-        <h3>Select Artist ⬆️ &amp; Click on songs ⬇️ to listen.</h3>
+        <h3>Select Artist ⬆️ &amp; Click on image ⬇️ to listen song.</h3>
 
         <div
           style={{
@@ -123,6 +153,7 @@ function App() {
                 >
                   🎵 {songs.songname}
                 </li>
+                <p>Ratings:⭐{songs.rating}</p>
               </a>
             );
           })}
