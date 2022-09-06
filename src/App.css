@@ -27,28 +27,36 @@ nav{
 .heading{
   background-color: lightblue;
   padding: 16px;
-  color: rgb(78, 22, 174);
+  color: 	#27408b;
   font-family: 'Poppins', sans-serif;
 }
 
 /* main content */
 .singer-name {
   width: 2rem;
-  margin: 1rem;
-  background-color: #8b0a50;
+  margin: 1rem 1.4rem;
+  background-color:	#ab99e0;
   color: white;
   border-radius: 4px;
   transition: 0.2s ease-in;
   font-weight: bold ;
-  border: 1px solid darkgray;
+  border: 1px solid lightgray;
 
 }
 
 .singer-name:hover {
   border: 2px solid blueviolet;
-  background-color: darkslateblue ;
-  color: white;
+  background-color:	#d8e6ad ;
+  color: black;
   transition: 0.2s ease-out;
+}
+
+.info{
+  color: #27408b;
+}
+
+.highlight{
+  color: red;
 }
 
 /* songs list */
@@ -57,7 +65,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 0.6rem;
   margin: 1rem;
   text-decoration:none;
 

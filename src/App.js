@@ -122,7 +122,10 @@ function App() {
 
       {/* -------------- */}
       <main>
-        <h3>Select Artist ⬆️ &amp; Click on image ⬇️ to listen song.</h3>
+        <h3 className="info">
+          Select <span className="highlight">Artist</span> ⬆️ &amp; Click on
+          image ⬇️ to listen song.
+        </h3>
 
         <div
           style={{
