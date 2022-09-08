@@ -23,6 +23,12 @@ function App() {
         pic: "/images/iktara.jpg",
         rating: "4.2/5",
       },
+      {
+        songname: "Airee Sakhi",
+        link: "https://www.youtube.com/watch?v=CtQ3UkEcQYI",
+        pic: "/images/Airee-Sakhi.jpg",
+        rating: "4.0/5",
+      },
     ],
     Jonita_Gandhi: [
       {
@@ -43,6 +49,12 @@ function App() {
         pic: "/images/tumHiHo.jpg",
         rating: "4.3/5",
       },
+      {
+        songname: "Main Tumhara",
+        link: "https://www.youtube.com/watch?v=8Q5d0P6x61k",
+        pic: "/images/Main-Tumhara.jpg",
+        rating: "4.4/5",
+      },
     ],
     KK: [
       {
@@ -62,6 +74,12 @@ function App() {
         link: "https://www.youtube.com/watch?v=qF179mXIahE",
         pic: "/images/Alvida.jpg",
         rating: "4.2/5",
+      },
+      {
+        songname: "Such Keh Raha Hai",
+        link: "https://www.youtube.com/watch?v=nVB0Wqx1ytc",
+        pic: "/images/Such-Keh-Raha.jpg",
+        rating: "4.6/5",
       },
     ],
 
@@ -84,6 +102,12 @@ function App() {
         pic: "/images/garbhadi.jpg",
         rating: "4.3/5",
       },
+      {
+        songname: "Singara Siriye",
+        link: "https://www.youtube.com/watch?v=G_TFYhW0D44",
+        pic: "/images/Singara-Siriye.jpg",
+        rating: "4.5/5",
+      },
     ],
   };
 
@@ -102,7 +126,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1 className="heading">🎶 Playlist 2022 🎶</h1>
+        <h1 className="heading">🎶 Songs Playlist 2022 🎶</h1>
         <nav>
           {/* singers array map */}
           {singerNameArray.map((singerName) => {
