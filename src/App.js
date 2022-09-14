@@ -4,6 +4,32 @@ import "./App.css";
 function App() {
   // data
   const singersList = {
+    Ananya_Bhat: [
+      {
+        songname: "Mehabooba KGF-2",
+        link: "https://www.youtube.com/watch?v=WRpr1PGVEbc",
+        pic: "/images/mehabooba.jpg",
+        rating: "4.7/5",
+      },
+      {
+        songname: "Sojugada_Sooju_Malige",
+        link: "https://www.youtube.com/watch?v=yWmcMsI5dks",
+        pic: "/images/Sojugada.jpg",
+        rating: "4.5/5",
+      },
+      {
+        songname: "Garbadhi",
+        link: "https://www.youtube.com/watch?v=o_Gark2BmoQ",
+        pic: "/images/garbhadi.jpg",
+        rating: "4.3/5",
+      },
+      {
+        songname: "Singara Siriye",
+        link: "https://www.youtube.com/watch?v=G_TFYhW0D44",
+        pic: "/images/Singara-Siriye.jpg",
+        rating: "4.5/5",
+      },
+    ],
     Kavita_Seth: [
       {
         songname: "Rangi Saari",
@@ -28,32 +54,6 @@ function App() {
         link: "https://www.youtube.com/watch?v=CtQ3UkEcQYI",
         pic: "/images/Airee-Sakhi.jpg",
         rating: "4.0/5",
-      },
-    ],
-    Jonita_Gandhi: [
-      {
-        songname: " Vaseegara",
-        link: "https://www.youtube.com/watch?v=zVgyZ-NPxHk",
-        pic: "/images/Vaseegara.jpg",
-        rating: "4.4/5",
-      },
-      {
-        songname: "Arabic Kuthu",
-        link: "https://www.youtube.com/watch?v=KUN5Uf9mObQ",
-        pic: "/images/arabicKuttu.jpg",
-        rating: "4.1/5",
-      },
-      {
-        songname: "Tum hi ho",
-        link: "https://www.youtube.com/watch?v=3AbmV04wZ4Y",
-        pic: "/images/tumHiHo.jpg",
-        rating: "4.3/5",
-      },
-      {
-        songname: "Main Tumhara",
-        link: "https://www.youtube.com/watch?v=8Q5d0P6x61k",
-        pic: "/images/Main-Tumhara.jpg",
-        rating: "4.4/5",
       },
     ],
     KK: [
@@ -82,31 +82,30 @@ function App() {
         rating: "4.6/5",
       },
     ],
-
-    Ananya_Bhat: [
+    Jonita_Gandhi: [
       {
-        songname: "Mehabooba KGF-2",
-        link: "https://www.youtube.com/watch?v=WRpr1PGVEbc",
-        pic: "/images/mehabooba.jpg",
-        rating: "4.7/5",
+        songname: " Vaseegara",
+        link: "https://www.youtube.com/watch?v=zVgyZ-NPxHk",
+        pic: "/images/Vaseegara.jpg",
+        rating: "4.4/5",
       },
       {
-        songname: "Sojugada_Sooju_Malige",
-        link: "https://www.youtube.com/watch?v=yWmcMsI5dks",
-        pic: "/images/Sojugada.jpg",
-        rating: "4.5/5",
+        songname: "Arabic Kuthu",
+        link: "https://www.youtube.com/watch?v=KUN5Uf9mObQ",
+        pic: "/images/arabicKuttu.jpg",
+        rating: "4.1/5",
       },
       {
-        songname: "Garbadhi",
-        link: "https://www.youtube.com/watch?v=o_Gark2BmoQ",
-        pic: "/images/garbhadi.jpg",
+        songname: "Tum hi ho",
+        link: "https://www.youtube.com/watch?v=3AbmV04wZ4Y",
+        pic: "/images/tumHiHo.jpg",
         rating: "4.3/5",
       },
       {
-        songname: "Singara Siriye",
-        link: "https://www.youtube.com/watch?v=G_TFYhW0D44",
-        pic: "/images/Singara-Siriye.jpg",
-        rating: "4.5/5",
+        songname: "Main Tumhara",
+        link: "https://www.youtube.com/watch?v=8Q5d0P6x61k",
+        pic: "/images/Main-Tumhara.jpg",
+        rating: "4.4/5",
       },
     ],
   };
@@ -116,7 +115,7 @@ function App() {
   const singerNameArray = Object.keys(singersList); // get keys array from object
 
   // State
-  const [singerName, setSingerName] = useState("Kavita_Seth");
+  const [singerName, setSingerName] = useState("Ananya_Bhat");
 
   // handler
   function singerClickHandler(singerName) {

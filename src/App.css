@@ -73,21 +73,36 @@ nav{
 }
 
 .song-details img{
+  width: 250px;
+  height: 250px;
   transition: 0.2s ease-in;
   border-radius: 10px;
 }
 
 .song-details img:hover{
-  transform: scale(1.15);
+  transform: scale(1.1);
   transition: 0.3s ease-out;
+  /* padding-bottom: 1rem; */
 }
 
-.song-details:hover{
+.song-details li:hover{
   text-decoration: underline;
-  color: darkviolet;
+  color: blue;
+  font-weight: 600;
+}
+
+.song-details li{
+  margin-top: 1rem ;
+
 }
 
 .song-details p{
   margin: 0;
   font-size: 0.8rem;
+}
+
+.song-details p:hover{
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
 }
