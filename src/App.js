@@ -151,14 +151,9 @@ function App() {
         </h3>
 
         <div
+          className="song-container"
           style={{
             className: "song-container",
-            width: "800px",
-            margin: "0 auto",
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            alignItems: "center",
           }}
         >
           {/* songs array map */}

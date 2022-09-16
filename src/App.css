@@ -61,6 +61,16 @@ nav{
 }
 
 /* songs list */
+
+.song-container{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .song-details{
   display: flex;
   flex-direction: column;
@@ -105,4 +115,49 @@ nav{
   text-decoration: underline;
   color: blue;
   font-weight: bold;
+}
+
+/* media queries */
+
+@media (max-width:426px){
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .singer-name{
+    width: max-content;
+    margin: 0.5rem 0;
+  }
+
+  .heading{
+    font-size: 1.4rem;
+  }
+
+  .info{
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .song-container{
+    flex-direction: column;
+  }
+
 }
