@@ -1,4 +1,4 @@
-# Mark-9: Playlist -2022
+# Mark-9: Songs Playlist 2022
 
 * A simple react app that plays songs of favorite singers made as playlist.
 * There are four singers and each having four songs.
